@@ -1,0 +1,73 @@
+chdir() to /home/galina_galinovna/anykey
+your processes number limit is 1744
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/anykey.sock fd 4
+Python version: 3.6.9 (default, Jul 17 2020, 12:50:27)  [GCC 8.4.0]
+PEP 405 virtualenv detected: /home/galina_galinovna/venv_galya
+Set PythonHome to /home/galina_galinovna/venv_galya
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55a6e5fcfc30
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145808 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55a6e5fcfc30 pid: 10409 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 10409)
+spawned uWSGI worker 1 (pid: 10412, cores: 1)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: pidfile removed.
+VACUUM: unix socket /tmp/anykey.sock removed.
+chdir() to /home/galina_galinovna/anykey
+your processes number limit is 1743
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/anykey.sock fd 4
+Python version: 3.6.9 (default, Jul 17 2020, 12:50:27)  [GCC 8.4.0]
+PEP 405 virtualenv detected: /home/galina_galinovna/venv_galya
+Set PythonHome to /home/galina_galinovna/venv_galya
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55cf039eac20
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145808 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 3 seconds on interpreter 0x55cf039eac20 pid: 334 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 334)
+spawned uWSGI worker 1 (pid: 395, cores: 1)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: pidfile removed.
+VACUUM: unix socket /tmp/anykey.sock removed.
+chdir() to /home/galina_galinovna/anykey
+your processes number limit is 1743
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/anykey.sock fd 4
+Python version: 3.6.9 (default, Jul 17 2020, 12:50:27)  [GCC 8.4.0]
+PEP 405 virtualenv detected: /home/galina_galinovna/venv_galya
+Set PythonHome to /home/galina_galinovna/venv_galya
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55dd0a7a6c20
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145808 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 3 seconds on interpreter 0x55dd0a7a6c20 pid: 331 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 331)
+spawned uWSGI worker 1 (pid: 386, cores: 1)
+[pid: 386|app: 0|req: 1/1] 217.144.175.70 () {46 vars in 721 bytes} [Wed Sep 30 16:31:08 2020] GET / => generated 16348 bytes in 33 msecs (HTTP/1.1 200) 3 headers in 96 bytes (2 switches on core 0)
+[pid: 386|app: 0|req: 2/2] 213.32.122.82 () {34 vars in 466 bytes} [Wed Sep 30 16:32:43 2020] GET / => generated 16348 bytes in 4 msecs (HTTP/1.1 200) 3 headers in 96 bytes (2 switches on core 0)
+[pid: 386|app: 0|req: 3/3] 71.6.232.7 () {36 vars in 501 bytes} [Wed Sep 30 16:40:52 2020] GET / => generated 16348 bytes in 4 msecs (HTTP/1.1 200) 3 headers in 96 bytes (2 switches on core 0)

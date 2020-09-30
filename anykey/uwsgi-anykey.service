@@ -1,0 +1,16 @@
+[Unit]
+Description=anykey uWSGI app
+After=syslog.target
+
+[Service]
+ExecStart=/usr/local/bin/uwsgi --ini /home/galina_galinovna/anykey/anykey/uwsgi.ini
+User=galina_galinovna
+Group=www-data
+Restart=on-failure
+KillSignal=SIGQUIT
+Type=notify
+StandardError=syslog
+NotifyAccess=all
+
+[Install]
+WantedBy=multi-user.target
